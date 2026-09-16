@@ -1,0 +1,491 @@
+{
+  "offsetOrder": "dy, dx",
+  "method": "Pixel SSD (same minimizer as L2)",
+  "results": [
+    {
+      "id": "cathedral",
+      "title": "Cathedral",
+      "input": "cathedral.jpg",
+      "lowres": true,
+      "status": "complete",
+      "archived": "assets/cathedral-archive.jpg",
+      "archivedSource": "cathedral.jpg 4.jpg",
+      "originalShape": [
+        341,
+        390
+      ],
+      "unaligned": "assets/cathedral-unaligned.jpg",
+      "single": {
+        "green": [
+          5,
+          2
+        ],
+        "red": [
+          12,
+          3
+        ],
+        "image": "assets/cathedral-single.jpg"
+      },
+      "pyramid": {
+        "green": [
+          5,
+          2
+        ],
+        "red": [
+          12,
+          3
+        ],
+        "image": "assets/cathedral-pixel.jpg"
+      },
+      "baselineSeconds": 0.87,
+      "gradient": {
+        "green": [
+          5,
+          2
+        ],
+        "red": [
+          12,
+          3
+        ],
+        "image": "assets/cathedral-gradient.jpg"
+      },
+      "crop": "assets/cathedral-crop.jpg",
+      "balance": "assets/cathedral-balance.jpg",
+      "contrast": "assets/cathedral-contrast.jpg",
+      "mapped": "assets/cathedral-mapped.jpg",
+      "totalSeconds": 1.13,
+      "final": {
+        "image": "assets/cathedral-final.jpg"
+      }
+    },
+    {
+      "id": "church",
+      "title": "Church",
+      "input": "church.tif",
+      "lowres": false,
+      "status": "complete",
+      "archived": "assets/church-archive.jpg",
+      "archivedSource": "church.tif 4.jpg",
+      "originalShape": [
+        3202,
+        3634
+      ],
+      "unaligned": "assets/church-unaligned.jpg",
+      "pyramid": {
+        "green": [
+          25,
+          4
+        ],
+        "red": [
+          64,
+          267
+        ],
+        "image": "assets/church-pixel.jpg"
+      },
+      "baselineSeconds": 4.24,
+      "note": "Raw-pixel baseline failure: strong red/cyan separation remains around the church.",
+      "final": {
+        "image": "assets/church-final.jpg"
+      }
+    },
+    {
+      "id": "emir",
+      "title": "Emir",
+      "input": "emir.tif",
+      "lowres": false,
+      "status": "complete",
+      "archived": "assets/emir-archive.jpg",
+      "archivedSource": "emir.tif 6.jpg",
+      "originalShape": [
+        3209,
+        3702
+      ],
+      "unaligned": "assets/emir-unaligned.jpg",
+      "pyramid": {
+        "green": [
+          49,
+          24
+        ],
+        "red": [
+          103,
+          57
+        ],
+        "image": "assets/emir-pixel.jpg"
+      },
+      "baselineSeconds": 4.1,
+      "gradient": {
+        "green": [
+          49,
+          24
+        ],
+        "red": [
+          107,
+          40
+        ],
+        "image": "assets/emir-gradient.jpg"
+      },
+      "crop": "assets/emir-crop.jpg",
+      "balance": "assets/emir-balance.jpg",
+      "contrast": "assets/emir-contrast.jpg",
+      "mapped": "assets/emir-mapped.jpg",
+      "totalSeconds": 31.13,
+      "final": {
+        "image": "assets/emir-final.jpg"
+      }
+    },
+    {
+      "id": "harvesters",
+      "title": "Harvesters",
+      "input": "harvesters.tif",
+      "lowres": false,
+      "status": "complete",
+      "archived": "assets/harvesters-archive.jpg",
+      "archivedSource": "harvesters.tif 2.jpg",
+      "originalShape": [
+        3218,
+        3683
+      ],
+      "unaligned": "assets/harvesters-unaligned.jpg",
+      "pyramid": {
+        "green": [
+          59,
+          16
+        ],
+        "red": [
+          124,
+          13
+        ],
+        "image": "assets/harvesters-pixel.jpg"
+      },
+      "baselineSeconds": 4.26,
+      "note": "Some local color ghosts remain around people; motion between exposures is a possible cause.",
+      "final": {
+        "image": "assets/harvesters-final.jpg"
+      }
+    },
+    {
+      "id": "icon",
+      "title": "Icon",
+      "input": "icon.tif",
+      "lowres": false,
+      "status": "complete",
+      "archived": "assets/icon-archive.jpg",
+      "archivedSource": "icon.tif 0.jpg",
+      "originalShape": [
+        3244,
+        3741
+      ],
+      "unaligned": "assets/icon-unaligned.jpg",
+      "pyramid": {
+        "green": [
+          41,
+          17
+        ],
+        "red": [
+          90,
+          23
+        ],
+        "image": "assets/icon-pixel.jpg"
+      },
+      "baselineSeconds": 4.4,
+      "final": {
+        "image": "assets/icon-final.jpg"
+      }
+    },
+    {
+      "id": "ilemselga",
+      "title": "Ilemselga",
+      "input": "ilemselga.tif",
+      "lowres": false,
+      "status": "complete",
+      "archived": "assets/ilemselga-archive.jpg",
+      "archivedSource": "ilemselga.tif 3.jpg",
+      "originalShape": [
+        3270,
+        3800
+      ],
+      "unaligned": "assets/ilemselga-unaligned.jpg",
+      "pyramid": {
+        "green": [
+          39,
+          7
+        ],
+        "red": [
+          130,
+          11
+        ],
+        "image": "assets/ilemselga-pixel.jpg"
+      },
+      "baselineSeconds": 4.42,
+      "final": {
+        "image": "assets/ilemselga-final.jpg"
+      }
+    },
+    {
+      "id": "melons",
+      "title": "Melons",
+      "input": "melons.tif",
+      "lowres": false,
+      "status": "complete",
+      "archived": "assets/melons-archive.jpg",
+      "archivedSource": "melons.tif 2.jpg",
+      "originalShape": [
+        3241,
+        3770
+      ],
+      "unaligned": "assets/melons-unaligned.jpg",
+      "pyramid": {
+        "green": [
+          82,
+          11
+        ],
+        "red": [
+          178,
+          13
+        ],
+        "image": "assets/melons-pixel.jpg"
+      },
+      "baselineSeconds": 4.45,
+      "final": {
+        "image": "assets/melons-final.jpg"
+      }
+    },
+    {
+      "id": "monastery",
+      "title": "Monastery",
+      "input": "monastery.jpg",
+      "lowres": true,
+      "status": "complete",
+      "archived": "assets/monastery-archive.jpg",
+      "archivedSource": "monastery.jpg 0.jpg",
+      "originalShape": [
+        341,
+        391
+      ],
+      "unaligned": "assets/monastery-unaligned.jpg",
+      "single": {
+        "green": [
+          -3,
+          2
+        ],
+        "red": [
+          3,
+          2
+        ],
+        "image": "assets/monastery-single.jpg"
+      },
+      "pyramid": {
+        "green": [
+          -3,
+          2
+        ],
+        "red": [
+          3,
+          2
+        ],
+        "image": "assets/monastery-pixel.jpg"
+      },
+      "baselineSeconds": 0.2,
+      "final": {
+        "image": "assets/monastery-final.jpg"
+      }
+    },
+    {
+      "id": "religous_painting",
+      "title": "Religious Painting",
+      "input": "religous_painting.tif",
+      "lowres": false,
+      "status": "complete",
+      "archived": "assets/religous_painting-archive.jpg",
+      "archivedSource": "religous_painting.tif 0.jpg",
+      "originalShape": [
+        3193,
+        3742
+      ],
+      "unaligned": "assets/religous_painting-unaligned.jpg",
+      "pyramid": {
+        "green": [
+          28,
+          3
+        ],
+        "red": [
+          68,
+          7
+        ],
+        "image": "assets/religous_painting-pixel.jpg"
+      },
+      "baselineSeconds": 4.23,
+      "final": {
+        "image": "assets/religous_painting-final.jpg"
+      }
+    },
+    {
+      "id": "self_portrait",
+      "title": "Self Portrait",
+      "input": "self_portrait.tif",
+      "lowres": false,
+      "status": "complete",
+      "archived": "assets/self_portrait-archive.jpg",
+      "archivedSource": "self_portrait.tif 2.jpg",
+      "originalShape": [
+        3251,
+        3810
+      ],
+      "unaligned": "assets/self_portrait-unaligned.jpg",
+      "pyramid": {
+        "green": [
+          79,
+          29
+        ],
+        "red": [
+          176,
+          37
+        ],
+        "image": "assets/self_portrait-pixel.jpg"
+      },
+      "baselineSeconds": 4.4,
+      "gradient": {
+        "green": [
+          78,
+          29
+        ],
+        "red": [
+          175,
+          37
+        ],
+        "image": "assets/self_portrait-gradient.jpg"
+      },
+      "crop": "assets/self_portrait-crop.jpg",
+      "balance": "assets/self_portrait-balance.jpg",
+      "contrast": "assets/self_portrait-contrast.jpg",
+      "mapped": "assets/self_portrait-mapped.jpg",
+      "totalSeconds": 31.96,
+      "note": "The bright green corner patch and some frame remnants are scan artifacts, not repaired scene content.",
+      "final": {
+        "image": "assets/self_portrait-final.jpg"
+      }
+    },
+    {
+      "id": "siren",
+      "title": "Siren",
+      "input": "siren.tif",
+      "lowres": false,
+      "status": "complete",
+      "originalShape": [
+        3250,
+        3817
+      ],
+      "unaligned": "assets/siren-unaligned.jpg",
+      "pyramid": {
+        "green": [
+          49,
+          -6
+        ],
+        "red": [
+          96,
+          -25
+        ],
+        "image": "assets/siren-pixel.jpg"
+      },
+      "baselineSeconds": 4.19,
+      "final": {
+        "image": "assets/siren-final.jpg"
+      }
+    },
+    {
+      "id": "three_generations",
+      "title": "Three Generations",
+      "input": "three_generations.tif",
+      "lowres": false,
+      "status": "complete",
+      "originalShape": [
+        3209,
+        3714
+      ],
+      "unaligned": "assets/three_generations-unaligned.jpg",
+      "pyramid": {
+        "green": [
+          53,
+          14
+        ],
+        "red": [
+          112,
+          11
+        ],
+        "image": "assets/three_generations-pixel.jpg"
+      },
+      "baselineSeconds": 4.15,
+      "final": {
+        "image": "assets/three_generations-final.jpg"
+      }
+    },
+    {
+      "id": "tobolsk",
+      "title": "Tobolsk",
+      "input": "tobolsk.jpg",
+      "lowres": true,
+      "status": "complete",
+      "archived": "assets/tobolsk-archive.jpg",
+      "archivedSource": "tobolsk.jpg 0.jpg",
+      "originalShape": [
+        341,
+        396
+      ],
+      "unaligned": "assets/tobolsk-unaligned.jpg",
+      "single": {
+        "green": [
+          3,
+          3
+        ],
+        "red": [
+          6,
+          3
+        ],
+        "image": "assets/tobolsk-single.jpg"
+      },
+      "pyramid": {
+        "green": [
+          3,
+          3
+        ],
+        "red": [
+          6,
+          3
+        ],
+        "image": "assets/tobolsk-pixel.jpg"
+      },
+      "baselineSeconds": 0.21,
+      "final": {
+        "image": "assets/tobolsk-final.jpg"
+      }
+    },
+    {
+      "id": "wharf",
+      "title": "Wharf",
+      "input": "wharf.tif",
+      "lowres": false,
+      "status": "complete",
+      "originalShape": [
+        3244,
+        3761
+      ],
+      "unaligned": "assets/wharf-unaligned.jpg",
+      "pyramid": {
+        "green": [
+          15,
+          -7
+        ],
+        "red": [
+          83,
+          -16
+        ],
+        "image": "assets/wharf-pixel.jpg"
+      },
+      "baselineSeconds": 4.14,
+      "final": {
+        "image": "assets/wharf-final.jpg"
+      }
+    }
+  ],
+  "observations": "<h3>Observed failure: Church.</h3><p>The reproduced raw-pixel baseline leaves an obvious red/cyan split around the church. Its red displacement is (64, 267) in (dy, dx) order. Broad low-texture sky and water, cross-channel brightness differences, and a coarse-level mismatch are plausible contributors; once a wrong coarse estimate is chosen, the ±3 refinements may not recover. The historical saved Church experiment is shown separately, with its original settings unverified.</p><h3>Local ghosts and surviving artifacts.</h3><p>Harvesters retains color fringes around some people. Movement between exposures is a plausible explanation, not a confirmed diagnosis from the composite alone. Self portrait retains a vivid green patch near the lower-right corner even after automatic cropping. This patch occupies only part of a row or column, so the detector's majority test does not necessarily remove it.</p>"
+}
